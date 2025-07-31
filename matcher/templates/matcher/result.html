@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Match Result</title></head>
+<body>
+    <h2>🔍 Match Score: {{ match_score }}%</h2>
+
+    <h3>🧠 Resume Keywords:</h3>
+    <ul>
+        {% for kw in resume_keywords %}
+        <li>{{ kw }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>📝 Job Description Keywords:</h3>
+    <ul>
+        {% for kw in job_keywords %}
+        <li>{{ kw }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

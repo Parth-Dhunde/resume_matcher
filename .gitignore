@@ -1,8 +1,16 @@
-*.pyc
-__pycache__/
-db.sqlite3
-/static/
-media/
-.env
+# Ignore Python virtual environments
+.venv/
+
+# Ignore editor config folders
 .vscode/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore database file
+db.sqlite3
+
+# Ignore OS and IDE files
 .DS_Store
+Thumbs.db
